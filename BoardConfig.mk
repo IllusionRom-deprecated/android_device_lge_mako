@@ -41,9 +41,12 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01600000
 
 # Try to build the kernel
 # Kernel inline build
-TARGET_KERNEL_CONFIG := mako_defconfig
-TARGET_VARIANT_CONFIG := mako_defconfig
-TARGET_SELINUX_CONFIG := mako_defconfig
+TARGET_KERNEL_CUSTOM_LINARO_TOOLCHAIN := linaro-arm-eabi-4-7/bin/arm-eabi-
+TARGET_KERNEL_SOURCE := kernel/lge/bricked-mako
+TARGET_KERNEL_CONFIG := bricked_defconfig
+TARGET_VARIANT_CONFIG := bricked_defconfig
+TARGET_SELINUX_CONFIG := bricked_defconfig
+BOARD_KERNEL_IMAGE_NAME := zImage
 
 BOARD_USES_ALSA_AUDIO:= true
 BOARD_USES_LEGACY_ALSA_AUDIO:= false

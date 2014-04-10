@@ -1,6 +1,8 @@
 [
  {
-   "repository": "android_kernel_lge_mako",
-   "target_path": "kernel/lge/mako"
+   "remote": "gh",
+   "repository": "showp1984/bricked-mako",
+   "target_path": "kernel/lge/bricked-mako",
+   "revision": "illusion-4.4"
  }
 ]

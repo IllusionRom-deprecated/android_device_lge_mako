@@ -278,14 +278,6 @@ PRODUCT_PACKAGES += \
 # QRNGD
 PRODUCT_PACKAGES += qrngd
 
-# Prebuilt kernel modules
-PRODUCT_COPY_FILES += \
-	device/lge/mako/prebuilts/modules/wlan.ko:system/lib/modules/wlan.ko \
-	device/lge/mako/prebuilts/modules/cifs.ko:system/lib/modules/cifs.ko \
-	device/lge/mako/prebuilts/modules/tun.ko:system/lib/modules/tun.ko \
-	device/lge/mako/prebuilts/modules/scsi_wait_scan.ko:system/lib/modules/scsi_wait_scan.ko \
-	device/lge/mako/prebuilts/modules/kcontrol_gpu_msm.ko:system/lib/modules/kcontrol_gpu_msm.ko
-
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
 # This is the mako-specific audio package

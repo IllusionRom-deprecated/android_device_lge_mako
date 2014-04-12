@@ -136,7 +136,6 @@ system/lib/libsensor1.so:qcom
 system/lib/libsensor_user_cal.so:qcom
 system/lib/libstagefright_hdcp.so:qcom
 system/bin/mm-qcamera-daemon:qcom
-system/bin/mpdecision:qcom
 system/bin/netmgrd:qcom
 system/bin/nl_listener:qcom
 system/bin/port-bridge:qcom
@@ -149,7 +148,6 @@ system/bin/rmt_storage:qcom
 system/lib/hw/flp.msm8960.so:qcom
 system/lib/hw/sensors.msm8960.so:qcom
 system/bin/sensors.qcom:qcom
-system/bin/thermald:qcom
 system/etc/firmware/tzapps.b00:qcom
 system/etc/firmware/tzapps.b01:qcom
 system/etc/firmware/tzapps.b02:qcom

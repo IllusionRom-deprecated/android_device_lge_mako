@@ -91,7 +91,6 @@ do
             system/bin/hci_qcomm_init \
             system/bin/ks \
             system/bin/mm-qcamera-daemon \
-            system/bin/mpdecision \
             system/bin/netmgrd \
             system/bin/nl_listener \
             system/bin/port-bridge \
@@ -101,7 +100,6 @@ do
             system/bin/radish \
             system/bin/rmt_storage \
             system/bin/sensors.qcom \
-            system/bin/thermald \
             system/bin/usbhub \
             system/bin/usbhub_init \
             system/bin/v4l2-qcamera-app \

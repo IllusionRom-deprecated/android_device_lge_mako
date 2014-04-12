@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/mako/proprietary/hci_qcomm_init:system/bin/hci_qcomm_init:qcom \
     vendor/qcom/mako/proprietary/ks:system/bin/ks:qcom \
     vendor/qcom/mako/proprietary/mm-qcamera-daemon:system/bin/mm-qcamera-daemon:qcom \
-    vendor/qcom/mako/proprietary/mpdecision:system/bin/mpdecision:qcom \
     vendor/qcom/mako/proprietary/netmgrd:system/bin/netmgrd:qcom \
     vendor/qcom/mako/proprietary/nl_listener:system/bin/nl_listener:qcom \
     vendor/qcom/mako/proprietary/port-bridge:system/bin/port-bridge:qcom \
@@ -34,7 +33,6 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/mako/proprietary/radish:system/bin/radish:qcom \
     vendor/qcom/mako/proprietary/rmt_storage:system/bin/rmt_storage:qcom \
     vendor/qcom/mako/proprietary/sensors.qcom:system/bin/sensors.qcom:qcom \
-    vendor/qcom/mako/proprietary/thermald:system/bin/thermald:qcom \
     vendor/qcom/mako/proprietary/usbhub:system/bin/usbhub:qcom \
     vendor/qcom/mako/proprietary/usbhub_init:system/bin/usbhub_init:qcom \
     vendor/qcom/mako/proprietary/v4l2-qcamera-app:system/bin/v4l2-qcamera-app:qcom \

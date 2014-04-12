@@ -8,7 +8,6 @@ bin/efsks
 bin/hci_qcomm_init
 bin/ks
 bin/mm-qcamera-daemon
-bin/mpdecision
 bin/netmgrd
 bin/nl_listener
 bin/port-bridge
@@ -18,7 +17,6 @@ bin/qseecomd
 bin/radish
 bin/rmt_storage
 bin/sensors.qcom
-bin/thermald
 bin/usbhub
 bin/usbhub_init
 bin/v4l2-qcamera-app

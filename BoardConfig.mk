@@ -37,8 +37,14 @@ BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=mako lpj=67677 user_debug=31
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01600000
 
-# prebuilt kernel, because wifi fails as a module inline built
-TARGET_PREBUILT_KERNEL := device/lge/mako/prebuilts/kernel/zImage
+# Try to build the kernel
+# Kernel inline build
+TARGET_KERNEL_CUSTOM_LINARO_TOOLCHAIN := linaro-arm-eabi-4-7/bin/arm-eabi-
+TARGET_KERNEL_SOURCE := kernel/lge/bricked-mako
+TARGET_KERNEL_CONFIG := bricked_defconfig
+TARGET_VARIANT_CONFIG := bricked_defconfig
+TARGET_SELINUX_CONFIG := bricked_defconfig
+BOARD_KERNEL_IMAGE_NAME := zImage
 
 BOARD_USES_ALSA_AUDIO:= true
 BOARD_USES_LEGACY_ALSA_AUDIO:= false
